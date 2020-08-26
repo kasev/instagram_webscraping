@@ -3,6 +3,11 @@ beautifulsoup4
 matplotlib
 gspread
 googlemaps
+nltk
+
+contextily
+shapely
+geopandas
 
 gspread_dataframe
 google-auth
