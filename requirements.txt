@@ -2,6 +2,7 @@ pandas
 beautifulsoup4
 matplotlib
 gspread
+googlemaps
 
 gspread_dataframe
 google-auth
