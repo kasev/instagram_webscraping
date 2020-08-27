@@ -9,7 +9,7 @@ This repo contains a couple of jupyter notebooks to be used for scraping posts f
 
 The scripts are configured to be executible fully online, using [mybinder](https://mybinder.org) or a similar jupyter hub server environment. To use mybinder, use the badge below:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kasev/webscraping_instagram/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kasev/instagram_webscraping/master)
 
 ---
 ## Authors
