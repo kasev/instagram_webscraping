@@ -7,7 +7,7 @@
 
 This repo contains a couple of jupyter notebooks to be used for scraping posts from instagram on the basis of a hashtag.
 
-The scripts are configured to be executible fully online, using [mybinder](https://mybinder.org) or a similar jupyter hub server environment. To use mybinder, use the link below:
+The scripts are configured to be executible fully online, using [mybinder](https://mybinder.org) or a similar jupyter hub server environment. To use mybinder, use the badge below:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kasev/webscraping_instagram/master)
 
@@ -22,10 +22,9 @@ CC-BY-SA 4.0, see attached License.md
 # How to use this repository
 
 ## Sources and prerequisites
-[Describe the provenance of data used in the scripts contained and clarify how it is harvested and what other prerequisites are required to get the scripts working. In case of pure tool attribute any reused scripts to source, etc., license and specify any prerequisites or technical requirements.]
 
-### Data
-Anything else on data metadata and data used. Link to data repository or explanatory article. 
+Data for the scripts are scraped directly from Instagram via its native API. The script is preconfigured in a way that the scraped data are automatically saved to sciencedata.dk. Thus, to have the scripts fully functional, you must have a sciencedata.dk account and be able to properly configure the [sddk](https://pypi.org/project/sddk/) python package.
+
 
 ### Software
 * Python 3 with packages specified in requirements.txt
@@ -39,14 +38,14 @@ Anything else on data metadata and data used. Link to data repository or explana
 ---
 ## Installation
 ---
-Click on the badge below and wait - mybinder install all you need
+Click on the badge above and wait - mybinder will install all you need.
 
 
 ## Instructions 
 
 1. setup your sciencedata.dk account and choose a folder where you want to save your data
 2. launch the repository on mybinder using the badge
-3. for a full integration with google, create a Google API key & Google Service Account Credentials files and upload them to your sciencedata or elsewhere (from where you can read them to your python environment).
+3. for a full integration with google, create a Google API key & Google Service Account Credentials files and upload them to your sciencedata or elsewhere (from where you can load them to your python environment).
 4. use mybinder terminal with preinstalled git to get your scripts back to github 
 
 
